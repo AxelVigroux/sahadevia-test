@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ba57d46c-3c2a-478f-ae63-dc16741cb424",
+    "firstName": "Marius",
+    "email": "marmar@hotmail.fr"
+  },
+  {
+    "id": "36d8bb00-38d2-4693-b1d2-0ae12b0a8f91",
+    "firstName": "Michel",
+    "email": "michel.petru@oui.fr"
+  },
+  {
+    "id": "14f2fc15-afc1-4b64-9121-60bc593c87bc",
+    "firstName": "Florence",
+    "email": "floflo@gmail.fr"
+  },
+  {
+    "id": "e42360e4-f4d5-4506-a5ef-e9071c0a7548",
+    "firstName": "Etienne ",
+    "email": "loupaps@hs.com"
+  },
+  {
+    "id": "a1f574c9-d691-4e81-aaaa-9792b077ac42",
+    "firstName": "Camille",
+    "email": "camcam@cam.fr"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "name": "template-react-nodejs",
+  "version": "0.1.0",
+  "description": "Template React Node.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "build_client": "cd client && npm install && npm run build",
+    "install_client": "cd client && npm install",
+    "install_server": "npm install",
+    "start": "NODE_ENV=production node server.js",
+    "update": "npm run install_server && npm run install_client"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "redux-devtools-extension": "^2.13.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noah-lnt/template-react-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noah-lnt/template-react-nodejs/issues"
+  },
+  "homepage": "https://github.com/noah-lnt/template-react-nodejs#readme"
+}

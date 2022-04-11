@@ -38,8 +38,8 @@ const Dashboard = (props) => {
     <Center height="100%">
       <TableContainer>
         <Table
-          mt={50}
-          minW="150px"
+          mt={25}
+          minW="300px"
           maxW="560px"
           size="md"
           variant="striped"
@@ -70,7 +70,7 @@ const Dashboard = (props) => {
                       deleteUser(user.id);
                     }}
                   >
-                    <CloseIcon />
+                    <CloseIcon color="red.500" />
                   </button>
                 </Td>
               </Tr>

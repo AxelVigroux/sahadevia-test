@@ -35,25 +35,27 @@ const Home = (props) => {
           Test Sahadevia
         </Heading>
         <Stack textAlign="center">
-          <Text maxW={"3xl"} mb="20">
-            Créer un système création de gestion d’utilisateurs (stockage JSON
-            côté back)
+          <Text maxW={"3xl"} mb="14">
+            Créer un système de création et de gestion d’utilisateurs (stockage
+            JSON côté back)
           </Text>
-          <List spacing={3} textAlign="left" mb={20}>
+          <List spacing={3} textAlign="left" mb="14">
             <ListItem>
               <ListIcon as={CheckCircleIcon} color="green.500" />
               Création d'utilisateur
             </ListItem>
             <ListItem>
               <ListIcon as={CheckCircleIcon} color="green.500" />
-              Suppresion d'utilisateur
+              Suppression d'utilisateur
             </ListItem>
             <ListItem>
               <ListIcon as={CheckCircleIcon} color="green.500" />
               Liste d'utilisateur
             </ListItem>
           </List>
-          <Text fontSize={25}>Fait par Axel Vigroux</Text>
+          <Text mb="0" fontSize={25}>
+            Fait par Axel Vigroux
+          </Text>
         </Stack>
       </Box>
     </Container>
